@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+.menu {
+    margin: 0;
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+/* al poner el cursor por encima cambien de color los títulos */
+.menu li:hover {    
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
