@@ -1,0 +1,50 @@
+body {
+    color:gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.principal {
+    display: flex;
+    justify-content:space-evenly;
+}
+.centroSalud {
+    display: flex;    
+}
+.centroSaludInfo {
+    margin-left: 20px;      
+}
+.centroSaludInfo h1 {
+    font-weight: normal;
+    font-size: 18px;   
+    margin-bottom: 12px; 
+}
+.centroSaludInfo p {
+    margin-top: 6px;
+    margin-bottom: 6px;        
+}
+.botones button {
+    height: 30px;
+    border-radius: 10px;
+}
+#Reservar {
+    background-color: white;
+    border: 2px solid gray;
+}
+#PedirPresupuesto {
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.comentarios {
+    display: flex;
+    align-items: center;
+}
+.nota {
+    background: grey;
+    color: black;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nota p {
+    margin: 0;
+}
